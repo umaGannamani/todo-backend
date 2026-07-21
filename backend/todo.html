@@ -1,0 +1,30 @@
+GET http://localhost:3000/todos/
+
+###
+
+POST http://localhost:3000/todos/
+
+Content-Type: application/json
+
+{
+    "todo": "Learn node"
+}
+
+###
+
+GET http://localhost:3000/todos/1/
+
+###
+
+PUT http://localhost:3000/todos/1/
+
+Content-Type: application/json
+
+{
+    "todo": "Learn sql",
+    "completed": true
+}
+
+###
+
+DELETE http://localhost:3000/todos/1/
